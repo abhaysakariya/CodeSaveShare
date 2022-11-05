@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>CodeSaveShare</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand text-warning" href="#">CSS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <div id="input" class="container input">
+    <div class="container test">
+
+      <div class="topthreedots bg-dark rounded-top border-bottom border-secondary row">
+        <div class="one bg-warning "></div>
+        <div class="two bg-success"></div>
+        <div class="three bg-danger"></div>
+        <div class="text-white" style="margin-left: auto; margin-right: 10px;" id="languagetext">
+
+        </div>
+
+      </div>
+    </div>
+
+    <div id="codearea" class="rounded-bottom contianer bg-dark text-white">
+      <div id="selecttext">
+        Select The Language First
+      </div>
+      <div id="editor" class="rounded-bottom"></div>
+
+    </div>
+    <br>
+  </div>
+  <br>
+
+  <div class="container toolsdiv bg-dark">
+    <div class="row tools">
+
+      <div class="dropup t1" style="margin-left: 6px;">
+        <button class="btn btn-secondary dropdown-toggle border-dark c" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Color
+        </button>
+        <div class="dropdown-menu c bg-dark" aria-labelledby="dropdownMenuButton" style="width: auto;">
+          <a class="dropdown-item " href="#" onclick="colorchange1()">
+            <div class="color-1"> </div>
+          </a>
+
+          <a class="dropdown-item" href="#" onclick="colorchange2()">
+            <div class="color-2"></div>
+          </a>
+          <a class="dropdown-item" href="#" onclick="colorchange3()">
+            <div class="color-3"></div>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="dropup border-dark t1" style="margin-left: auto;">
+        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Language
+        </button>
+        <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item text-white" href="#" onclick="javascript()">JavaScript</a>
+          <a class="dropdown-item text-white" href="#" onclick="html()">HTML</a>
+          <a class="dropdown-item text-white" href="#" onclick="css()">CSS</a>
+        </div>
+      </div>
+
+
+      <button type="button" class="btn btn-danger dowbtn border-dark t1" id="dowbtn">Download</button>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.12.5/ace.js"></script>
+  <script src="main.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

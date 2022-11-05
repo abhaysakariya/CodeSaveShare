@@ -1,0 +1,136 @@
+body,.input {
+  font-size: 15pt;
+  background-image: linear-gradient(to bottom right, #4F51F9, #4AFFA2);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.input{
+  padding: 1rem 1rem;
+}
+
+
+#codearea {
+  margin-left: auto;
+  min-width: 250px;
+  min-height: 250px;
+  height: auto;
+}
+
+#codearea,.test{
+  box-shadow: 0 4px 7px 0 black;
+}
+
+.topthreedots {
+  margin-top: 2rem;
+  min-width: 230px;
+  height: 30px;
+}
+
+
+.one,
+.two,
+.three {
+  margin-top: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.one {
+  margin-left: 13px;
+}
+
+.two,
+.three {
+  margin-left: 5px;
+}
+
+
+.code{
+  height: auto;
+  margin-top: 0;
+}
+
+#editor{
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 250px;
+  min-width: 250px;
+}
+
+
+
+.toolsdiv{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+
+.tools{
+  margin: auto;
+}
+
+.dowbtn{
+  margin-left: auto;
+}
+
+.t1{
+  box-shadow: 0 4px 7px 0  #000;
+}
+
+
+.color-1{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-image: linear-gradient(to bottom right, #4F51F9, #4AFFA2);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.color1{
+  background-image: linear-gradient(to bottom right, #4F51F9, #4AFFA2);
+}
+
+.color-2{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-image: linear-gradient(to bottom right, #4F51F9, #FF35C8);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.color2{
+  background-image: linear-gradient(to bottom right, #4F51F9, #FF35C8);
+}
+
+.color-3{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-image: linear-gradient(to bottom right, #CDED16, #FF35C8);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.color3{
+  background-image: linear-gradient(to bottom right, #CDED16, #FF35C8);
+}
+
+
